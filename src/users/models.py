@@ -26,7 +26,7 @@ class Users(models.Model) :
 
     # id = models.CharField(max_length = 20)
     username = models.CharField(max_length = 20)
-    cellphone = models.CharField(max_length = 11)
+    cellphone = models.IntegerField()
     content = models.TextField()
     user_div = models.CharField(
         max_length = 3,
